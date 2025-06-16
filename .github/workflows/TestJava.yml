@@ -25,4 +25,4 @@ jobs:
         run: chmod +x ./mvnw
 
       - name: Rodar os testes
-        run: ./mvnw clean test
+        run: mvnw clean test
